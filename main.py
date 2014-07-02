@@ -3,6 +3,10 @@
 import sys
 import lib.send
 
+def ilove_jiwoo():
+	print 'i love jiwoo'
+	print 'I want to earn a lot of money'
+
 def print_helloworld():
 	print 'hello world'
 
@@ -20,6 +24,7 @@ def main(name):
 	lib.send.echo('my prog name is %s'%name)
 	calc(10)
 	help()
+	ilove_jiwoo()
 
 if __name__ == '__main__':
 	name = sys.argv[0]
