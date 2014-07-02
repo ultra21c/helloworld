@@ -7,6 +7,7 @@ helloworld
 ## github test
 * git status
 * git clone
+* git branch test
 ```python
 #!/usr/bin/env python
 
