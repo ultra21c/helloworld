@@ -22,6 +22,8 @@ def main(name):
 	calc(10)
 	ilove_jiwoo()
 
+print 'hi'
+
 if __name__ == '__main__':
 	name = sys.argv[0]
 	main(name)
