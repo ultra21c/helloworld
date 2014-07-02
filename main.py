@@ -27,6 +27,7 @@ def main(name):
 	ilove_jiwoo()
 
 print 'hi'
+print 'branch test'
 
 if __name__ == '__main__':
 	name = sys.argv[0]
