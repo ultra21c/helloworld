@@ -3,6 +3,9 @@
 import sys
 import lib.send
 
+def print-helloworld():
+	print 'hello world'
+
 def main(name):
 	print 'hello world'
 	lib.send.echo('my prog name is %s'%name)
