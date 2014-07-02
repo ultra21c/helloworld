@@ -1,7 +1,12 @@
 #!/usr/bin/env python
 
-def main():
+import sys
+import lib.send
+
+def main(name):
 	print 'hello world'
+	lib.send.echo('my prog name is %s'%name)
 
 if __name__ == '__main__':
-	main()
+	name = sys.argv[0]
+	main(name)
