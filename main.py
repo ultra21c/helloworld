@@ -3,7 +3,6 @@
 import sys
 import lib.send
 
-
 def ilove_jiwoo():
 	print 'i love jiwoo'
 	print 'I want to earn a lot of money'
